@@ -1,5 +1,4 @@
 """Django settings for bboom_test project."""
-
 from pathlib import Path
 
 import environ
