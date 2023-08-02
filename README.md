@@ -1,4 +1,5 @@
 # Test task for BBoom company
+___
 ## Tech stack:
 <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>     
 <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white"/>  
@@ -6,6 +7,7 @@
 <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"/> 
 <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/>
 
+___
 ## This application consists of 2 main modules:   
 - API interface
 - UI interface   
@@ -21,6 +23,7 @@
 - Create Post (using django form);
 - Delete Post.
 
+___
 ### Project structure
 - `bboom_test/` : package with django settings
 - `posts/` : posts django app
@@ -33,9 +36,11 @@
 - `pytest.ini` : pytest configuration
 - `manage.py` : main django file
 
+___
 ### Testing
 - API testing done by pytest library using factoryboy
 
+___
 ### Local start
 1) Clone repository
 ``` python
@@ -60,5 +65,6 @@ DEBUG=False
 ``` python
 docker-compose up --build
 ```
+___
 ### API requests are available on address http://127.0.0.1:8000
 ### UI requests are available on address http://127.0.0.1:8080
