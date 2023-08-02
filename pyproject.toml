@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "bboom-test"
+version = "0.1.0"
+description = ""
+authors = ["Michael Rodionov <rodionovspb9618@mail.ru>"]
+readme = "README.md"
+packages = [{include = "bboom_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.4"
+djangorestframework = "^3.14.0"
+psycopg2-binary = "^2.9.6"
+djangorestframework-simplejwt = "^5.2.2"
+django-environ = "^0.10.0"
+drf-spectacular = "^0.26.4"
+django-pytest = "^0.2.0"
+pytest-django = "^4.5.2"
+pytest-factoryboy = "^2.5.1"
+pytest-cov = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
